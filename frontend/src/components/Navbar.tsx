@@ -33,8 +33,8 @@ const Navbar = () => {
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         isScrolled 
-          ? 'py-2 bg-white bg-opacity-90 backdrop-blur-sm shadow-md'
-          : 'py-4 bg-transparent'
+          ? 'py-1 bg-white bg-opacity-90 backdrop-blur-sm shadow-md'
+          : 'py-2 bg-transparent'
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-3 lg:px-5">
@@ -43,7 +43,7 @@ const Navbar = () => {
             <a href="#" className="flex items-center">
               <img 
                 src="/images/sound_spectrum_logo.png" 
-                className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32 object-contain transition-all duration-300" 
+                className="w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 lg:w-48 lg:h-48 xl:w-52 xl:h-52 2xl:w-56 2xl:h-56 object-contain transition-all duration-300" 
                 alt="Sound Spectrum Clinic Logo" 
               />
             </a>

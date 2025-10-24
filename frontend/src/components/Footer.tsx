@@ -18,7 +18,7 @@ const Footer = () => {
             <a href="#" className="flex items-center">
               <img 
                 src="/images/sound_spectrum_logo.png" 
-                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 object-contain transition-all duration-300" 
+                className="w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 lg:w-52 lg:h-52 xl:w-56 xl:h-56 2xl:w-60 2xl:h-60 object-contain transition-all duration-300" 
                 alt="Sound Spectrum Clinic Logo" 
               />
             </a>
