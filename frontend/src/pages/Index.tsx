@@ -42,7 +42,7 @@ const Index = () => {
 
   return (
     <div id="home" className="min-h-screen bg-gradient-to-b from-clinic-secondary via-white to-clinic-secondary">
-      <FacebookPixel />
+      {/* <FacebookPixel /> */}
       {/* <ScrollToTop /> */}
       {/* <PriceSticker /> */}
       <Navbar />

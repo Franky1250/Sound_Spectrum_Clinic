@@ -41,13 +41,13 @@ const DiscountAndFeatures = () => {
         </div>
 
         {/* Discount Banner Image */}
-        <div className="text-center reveal" style={{ transitionDelay: "200ms" }}>
+        {/* <div className="text-center reveal" style={{ transitionDelay: "200ms" }}>
           <img
             src="/images/Brands/discount banner.jpg"
             alt="NANA Speech & Hearing Clinic - Better Hearing, Better Life"
             className="max-w-full h-auto rounded-2xl shadow-2xl mx-auto"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

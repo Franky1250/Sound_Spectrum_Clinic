@@ -47,7 +47,7 @@ const HearingAidsTypes = () => {
   ];
 
   const handleClick = () => {
-    window.open(`https://wa.me/917205454269?text=${encodeURIComponent('Hello, I would like to book an appointment.')}`, '_blank');
+    window.open(`https://wa.me/919167177765?text=${encodeURIComponent('Hello, I would like to book an appointment.')}`, '_blank');
   }
 
   return (
