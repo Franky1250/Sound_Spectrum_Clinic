@@ -9,9 +9,9 @@ app.use(express.json());
 // Enhanced CORS configuration
 app.use(cors({
   origin: [
-    "https://nanahearing.com",
-    "https://www.nanahearing.com",
-    "https://nana-clinic-prateek-page.vercel.app"
+    "https://soundspectrumhearingclinic.com",
+    "https://www.soundspectrumhearingclinic.com",
+    "https://sound-spectrum-clinic-frontend.vercel.app"
   ],
   methods: ["GET", "POST", "OPTIONS"], // Added OPTIONS for preflight
   allowedHeaders: ["Content-Type"],
