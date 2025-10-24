@@ -40,10 +40,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-3 lg:px-5">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <a href="#" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-clinic-accent">
-                <img src="/images/sound_spectrum_logo.png" className='w-20 h-20' alt="logo" />
-              </span>
+            <a href="#" className="flex items-center">
+              <img 
+                src="/images/sound_spectrum_logo.png" 
+                className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32 object-contain transition-all duration-300" 
+                alt="Sound Spectrum Clinic Logo" 
+              />
             </a>
           </div>
 
