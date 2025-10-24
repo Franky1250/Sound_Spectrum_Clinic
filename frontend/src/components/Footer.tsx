@@ -15,15 +15,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <div className="flex items-center mb-6">
-              <span className="text-2xl font-bold text-gray-900">
-                <span className="text-blue-900">NA</span>
-                <span className="text-red-500">NA</span>
-                {/* Stack "Healthcare" below "NANA" and align tightly */}
-                <div className="block text-sm leading-none mt-1">
-                  <span className="text-blue-900">Health</span>
-                  <span className="text-red-500">care</span>
-                </div>
+            <a href="#" className="flex items-center space-x-2">
+              <span className="text-2xl font-bold text-clinic-accent">
+                <img src="/images/sound_spectrum_logo.png" className='w-20 h-20' alt="logo" />
               </span>
+            </a>
             </div>
             <p className="text-gray-600 mb-4">
               Your trusted partner in comprehensive ear healthcare. We're
@@ -32,21 +28,21 @@ const Footer = () => {
             <div className="flex space-x-4">
               {/* // facebook */}
               <a
-                href="https://www.facebook.com/share/16837syix1/?mibextid=qi2Omg"
+                href="#"
                 className="text-gray-600 hover:text-clinic-primary transition-colors"
               >
                 <FaFacebook className="w-6 h-6 text-blue-500" />
               </a>
               {/* // instagram */}
               <a
-                href="https://www.instagram.com/nanahearing?igsh=ejFwYWRiYnRndTNv"
+                href="https://www.instagram.com/soundspectrum_hearing_clinic?igsh=Y3lyOHlhcXh5ajAx&utm_source=qr"
                 className="text-gray-600 hover:text-clinic-primary transition-colors"
               >
                 <FaInstagram className="w-6 h-6 text-pink-500" />
               </a>
               {/* // twitter */}
               <a
-                href="https://x.com/NANA_Hearing?t=W9CgGOrMnRi3MeiCkLDDYw&s=08"
+                href="#"
                 className="text-gray-600 hover:text-clinic-primary transition-colors"
               >
                 <FaXTwitter className="w-6 h-6 text-black" />
@@ -54,7 +50,7 @@ const Footer = () => {
 
               {/* // Youtube */}
               <a
-                href="https://www.youtube.com/@NanaSpeechHearingClinic"
+                href="#"
                 className="text-gray-600 hover:text-clinic-primary transition-colors"
               >
                 <FaYoutube className="w-6 h-6 text-red-500" />
@@ -177,21 +173,21 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <CiLocationOn className="h-5 w-5 text-clinic-primary mt-1" />
                 <span className="text-gray-600">
-                  1st floor, <br />
-                  Kathagola Rd, <br />
-                  Near UCO Bank ATM, <br />
-                  Mangalabag, Cuttack, Odisha, <br />
-                  753001
+                  Plot no. 33, <br />
+                  Old Ag Colony, <br />
+                  Unit 4, <br />
+                  Madhusudan Nagar, Bhubaneswar, Odisha, <br />
+                  751022
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <IoCallOutline className="h-5 w-5 text-clinic-primary" />
-                <span className="text-gray-600">+91 720 545 4269</span>
+                <span className="text-gray-600">+91 916 717 7765</span>
               </li>
               <li className="flex items-center space-x-3">
                 <MdOutlineEmail className="h-5 w-5 text-clinic-primary" />
                 <span className="text-gray-600">
-                  nana.healthcareclinic@gmail.com
+                  soundspectrumhearingclinic@gmail.com
                 </span>
               </li>
             </ul>
@@ -202,7 +198,7 @@ const Footer = () => {
         <div className="border-t border-gray-300 mt-12 pt-6">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} NANA Hearing Clinic. All rights
+              &copy; {new Date().getFullYear()} Sound Spectrum Hearing Clinic. All rights
               reserved.
             </p>
             <div className="mt-4 sm:mt-0">

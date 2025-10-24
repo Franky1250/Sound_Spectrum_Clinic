@@ -31,16 +31,16 @@ const ActionButtons = () => {
       description: "Connecting you with our support team...",
       duration: 2000,
     });
-    window.open(`https://wa.me/917205454269?text=${encodeURIComponent('Hello, I would like to book an appointment.')}`, '_blank');
+    window.open(`https://wa.me/919167177765?text=${encodeURIComponent('Hello, I would like to book an appointment.')}`, '_blank');
   };
 
   const callClinic = () => {
     toast({
       title: "Calling Clinic",
-      description: "Connecting you to +917205454269",
+      description: "Connecting you to +919167177765",
       duration: 2000,
     });
-    window.location.href = 'tel:+917205454269';
+    window.location.href = 'tel:+919167177765';
   };
 
   return (

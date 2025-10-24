@@ -35,7 +35,7 @@ const Schedule = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-clinic-accent">Phone</h3>
-                    <p className="text-gray-600">+91 720 545 4269</p>
+                    <p className="text-gray-600">+91 916 717 7765</p>
                   </div>
                 </div>
 
@@ -46,7 +46,7 @@ const Schedule = () => {
                   <div>
                     <h3 className="font-medium text-clinic-accent">Email</h3>
                     <p className="text-gray-600">
-                      nana.healthcareclinic@gmail.com
+                      soundspectrumhearingclinic@gmail.com
                     </p>
                   </div>
                 </div>
