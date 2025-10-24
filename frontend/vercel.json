@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://nana-clinic-prateek.vercel.app/api/$1"
+      "dest": "https://sound-spectrum-clinic-backend.vercel.app/api/$1"
     }
   ]
 }
